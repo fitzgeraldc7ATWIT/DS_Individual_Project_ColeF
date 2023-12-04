@@ -13,6 +13,8 @@ The data has over 2,900 samples with 16 columns:
 
 The purpose being a model created to predict the output of a solar power system. The dataset can be found online at [kaggle](https://www.kaggle.com/datasets/vipulgote4/solar-power-generation/)
 
+Data Preview:
+![Data screenshot](./graph/dataPreview.png)
 
 ## Methods
 
