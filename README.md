@@ -1,4 +1,4 @@
-# DS_Individual_Project_ColeF
+# Solar Data Science Project
 
 ## Introduction
 
