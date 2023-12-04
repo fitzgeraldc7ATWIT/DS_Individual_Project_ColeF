@@ -15,3 +15,8 @@ The purpose being a model created to predict the output of a solar power system.
 
 
 ## Methods
+
+Tools:
+- NumPy, Pandas
+- GitHub
+- VS Code as IDE
