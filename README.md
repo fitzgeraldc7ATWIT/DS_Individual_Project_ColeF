@@ -35,13 +35,13 @@ I assumed with this method I would be able to find out the most important factor
 I used the Scikit-learns linear regression model in this project. I used the LinearRegression class for model training and used functions like fit() and predict() to process the data.
 
 ## Results
-Question 1: ![Sky Cover Vs Power Generated](graph\SkyCoverVsPowerGeneratedRL.png)
+Question 1: ![Sky Cover Vs Power Generated](./graph/SkyCoverVsPowerGeneratedRL.png)
 
 
-Question 2: ![Wind Speed (day) Vs Power Generated](graph\WindSpeed(day)VsPowerGeneratedRL.png)
+Question 2: ![Wind Speed (day) Vs Power Generated](./graph/WindSpeed(day)VsPowerGeneratedRL.png)
 
 
-Question 3: ![Relative Humidity Vs Power Generated](graph\Linear regression of Relative Humidity vs Power generated.png)
+Question 3: ![Relative Humidity Vs Power Generated](./graph/Linear%20regression%20of%20Distance%20to%20Solar%20Noon%20vs%20Power%20generated.png)
 ## Discussion
 
 ## Summary
