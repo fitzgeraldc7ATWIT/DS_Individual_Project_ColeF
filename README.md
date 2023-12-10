@@ -26,5 +26,11 @@ Tools:
 Methods used with Scikit-learn:
 - Linear regressin model
 
-"Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable." - [IBM](https://www.ibm.com/topics/linear-regression). I chose the linear regression model because I wanted to explore the relationship between weather conditions and the power generation of this solar power system based in California. I assumed with this method I would be able to find out the most important factors in generating the most power and being able to show that with a graph of the line of regression. I used the Scikit-learns linear regression model in this project. I used the LinearRegression class for model training and used functions like fit() and predict() to process the data.
+"Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable." - [IBM](https://www.ibm.com/topics/linear-regression). 
+
+I chose the linear regression model because I wanted to explore the relationship between weather conditions and the power generation of this solar power system based in California. 
+
+I assumed with this method I would be able to find out the most important factors in generating the most power and being able to show that with a graph of the line of regression. 
+
+I used the Scikit-learns linear regression model in this project. I used the LinearRegression class for model training and used functions like fit() and predict() to process the data.
 
