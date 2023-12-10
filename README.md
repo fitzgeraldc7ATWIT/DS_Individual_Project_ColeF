@@ -26,6 +26,9 @@ Tools:
 Methods used with Scikit-learn:
 - Linear regressin model
 
+other method:
+- correlation matrix(wanted an overview of the relationships between the weather factors and 'Power Generated')
+
 "Linear regression analysis is used to predict the value of a variable based on the value of another variable. The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable." - [IBM](https://www.ibm.com/topics/linear-regression). 
 
 I chose the linear regression model because I wanted to explore the relationship between weather conditions and the power generation of this solar power system based in California. 
@@ -51,5 +54,6 @@ Question 3: What is the most important weather condition for energy generation?
 
 ![Relative Humidity Vs Power Generated](./graph/Linear%20regression%20of%20Distance%20to%20Solar%20Noon%20vs%20Power%20generated.png)
 ## Discussion
+
 
 ## Summary
