@@ -63,6 +63,7 @@ def linear_regression_function(X, Y, xlabel, title, legend_loc = 'upper right'):
     plt.show()
 
     # Print out the performance and coefficients
+    print(xlabel,":")
     print("Model coefficients: ", model.coef_)
     print("Mean squared error: ", mse)
     print("R squared: ", r2)
@@ -99,3 +100,10 @@ print("Through Question 3 we can see that there are 3-4 factors that have a rela
       "'is Daylight'(strong positive correlation),\n"
       "'Relative Humidity'(strong negative correlation),\n" 
       "'Average Wind Speed (Period)(has a weaker positive correlation)'\n")
+
+# Additional models based on the results of Question 3
+linear_regression_function(df[['Distance to Solar Noon']], df[['Power Generated']], 'Distance to Solar Noon', 'Linear regression of Distance to Solar Noon vs Power generated')
+linear_regression_function(df[['Is Daylight']], df[['Power Generated']], 'Is Daylight', 'Linear regression of Is Daylight vs Power generated', 'upper left')
+linear_regression_function(df[['Relative Humidity']], df[['Power Generated']], 'Relative Humidity', 'Linear regression of Relative Humidity vs Power generated')
+linear_regression_function(df[['Average Wind Speed (Period)']], df[['Power Generated']], 'Average Wind Speed (Period)', 'Linear regression of Average Wind Speed (Period) vs Power generated')
+
