@@ -47,6 +47,8 @@ Question 2: Does wind speed affect the amount of energy generated?
 
 Question 3: What is the most important weather condition for energy generation?
 
+![Correlation with Power Generated](./graph/Question3correlation.png)
+
 ![Relative Humidity Vs Power Generated](./graph/Linear%20regression%20of%20Distance%20to%20Solar%20Noon%20vs%20Power%20generated.png)
 ## Discussion
 
