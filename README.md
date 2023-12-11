@@ -24,7 +24,7 @@ Tools:
 - VS Code as IDE
 
 Methods used with Scikit-learn:
-- Linear regressin model
+- Linear regression model
 
 other method:
 - correlation matrix(wanted an overview of the relationships between the weather factors and 'Power Generated')
