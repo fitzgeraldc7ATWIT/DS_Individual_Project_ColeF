@@ -1,3 +1,4 @@
+import os
 #pandas, numpy, and matplot imports
 import pandas as pd
 import numpy as np
@@ -8,8 +9,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-#read data file
-df = pd.read_csv('data\\BigML_Dataset_5f50a4cc0d052e40e6000034.csv')
+#Get the current script's directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the relative path to the data folder
+data_path = os.path.join(script_dir, '../data/BigML_Dataset_5f50a4cc0d052e40e6000034.csv')
+
+# Read the CSV file
+df = pd.read_csv(data_path)
 
 #check # of rows and columns
 #df.shape
