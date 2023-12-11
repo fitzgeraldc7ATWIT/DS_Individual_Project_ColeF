@@ -35,9 +35,15 @@ df = df.drop_duplicates()
 type(df)
 
 
-# Decided to define a function to use instead of just having two very long pieces of practically the same code for question 1 and 2.
+# Decided to define a function to use for linear regression instead of just having two very long pieces of practically the same code for question 1 and 2.
 # made the code easier to read and less complicated for me to work on
 def linear_regression_function(X, Y, xlabel, title, legend_loc = 'upper right'):
+    #- X: Independent variable
+    #- Y: Dependent variable
+    #- xlabel: Label for x-axis
+    #- title: Title of the plot
+    #- legend_loc: Location of the legend in case of overlapping
+
     # Split the data
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=.2, random_state=12)
 
