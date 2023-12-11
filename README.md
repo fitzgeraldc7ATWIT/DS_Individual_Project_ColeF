@@ -54,7 +54,7 @@ Question 3: What is the most important weather condition for energy generation?
 
 ![Relative Humidity Vs Power Generated](./graph/Linear%20regression%20of%20Distance%20to%20Solar%20Noon%20vs%20Power%20generated.png)
 ## Discussion
-Using linear regression using an 80/20 testing method, I found that the data was not very accurate and very volatile. To measure accuracy I used mean squared error and R-squared, and with testing or numerous variables I found that the predictions were highly variable. 
+Using linear regression using an 80/20 testing method, I found that the data was not very accurate and very volatile. To measure accuracy I used mean squared error(mse) and R-squared, and with testing or numerous variables I found that the predictions were highly variable, where for questions 1 and 2 the mean squared error would be abnormally high, which leads to less accurate information, ex. for 'Sky Cover' the mean squared error was: 103869621.45973709. 
 
 During this process I also came to know how complex these systems can be, where numerous factors all contribute to one another and in this case 'power generation'.
 
